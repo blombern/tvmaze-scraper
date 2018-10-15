@@ -5,7 +5,7 @@ const app = express()
 
 app.set('port', process.env.PORT || 3000)
 
-app.use('/',  showController)
+app.use('/', showController)
 
 app.listen(app.get('port'), () => {
   console.log(

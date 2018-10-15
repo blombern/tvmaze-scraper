@@ -7,8 +7,8 @@ export interface UnusedProperties {
 export type ApiResponse = any
 
 export interface CastMember {
-  id: number,
-  name: string,
+  id: number
+  name: string
   birthday: string | null
 }
 
@@ -17,13 +17,13 @@ export interface ApiCastMember extends UnusedProperties {
 }
 
 export interface ApiShow extends UnusedProperties {
-  id: number,
+  id: number
   name: string
 }
 
 export interface Show {
-  id: number,
-  name: string,
+  id: number
+  name: string
   cast: CastMember[]
 }
 
