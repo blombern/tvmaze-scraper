@@ -20,3 +20,5 @@
 
 ### Run app
 `yarn start`
+
+Exposes shows at http://localhost:3000/shows?page=0
