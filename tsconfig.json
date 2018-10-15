@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build",
+    "module": "commonjs",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "allowJs": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "lib": ["es2015"]
+  },
+  "include": ["./src/**/*"]
+}
