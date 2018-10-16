@@ -8,7 +8,7 @@ const PAGE_SIZE = 100
 
 router.get('/shows', (req: Request, res: Response) => {
   const page: number = req.query.page || 0
-  ShowDocument.find({}, { _id: false, 'cast._id': false })
+  ShowDocument.find({}, { '_id': 0, 'cast._id': 0, '__v': 0 })
     .skip(page * PAGE_SIZE)
     .limit(PAGE_SIZE)
     .then((shows: ShowModel[]) => {
